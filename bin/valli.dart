@@ -6,6 +6,7 @@ void main() {
   var stringSize = percorso.length;
   var movimento = 0;
   var numValliPercorsi = 0;
+  var miTrovoNellavalle = false;
   if ((stringSize <= minSize) || (stringSize >= maxSize)) {
     print(
         'La lunghezza della stringa inserita non rispetta le condizioni inizili');
